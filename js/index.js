@@ -57,5 +57,5 @@ function show(index){
     display: 'block'
     })
     $("body").css({overflow:"hidden"})
-    $("#show").html("<img src='../test.github.io/imgs/"+index+".jpg'/>");
+    $("#show").html("<img src='./imgs/"+index+".jpg'/>");
 }
