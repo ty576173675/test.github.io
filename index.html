@@ -1,10 +1,37 @@
-<!DOCTYPE >
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<title>test</title>
-	</head>
-	<body>
-		<h1>123</h1>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<title>3D相册拖拽动画</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="js/jq.js"></script>
+</head>
+<body>
+    <embed src="music/1.mp3" autostart="true" loop="true" hidden="true"></embed>
+    <div id="mask-kk"></div>      
+    <div class="popup-kk">
+        <span class="close">x</span>
+        <div id="show"></div>
+    </div>
+    <div id="wrap">
+        <ul>
+            <li style="background-image:url(imgs/1.jpg);" onclick="show(1)"></li>
+            <li style="background-image:url(imgs/2.jpg);" onclick="show(2)"></li>
+            <li style="background-image:url(imgs/3.jpg);" onclick="show(3)"></li>
+            <li style="background-image:url(imgs/4.jpg);" onclick="show(4)"></li>
+            <li style="background-image:url(imgs/5.jpg);" onclick="show(5)"></li>
+            <li style="background-image:url(imgs/6.jpg);" onclick="show(6)"></li>
+            <li style="background-image:url(imgs/7.jpg);" onclick="show(7)"></li>
+            <li style="background-image:url(imgs/8.jpg);" onclick="show(8)"></li>
+        </ul>
+        <p></p>
+
+    </div>
+</body>
 </html>
+<script src="js/index.js"></script>
